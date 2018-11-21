@@ -144,4 +144,17 @@
     [mString appendString:@"]"];
     return mString;
 }
+
+#pragma mark - NSCopying
+- (id)copyWithZone:(nullable NSZone *)zone{
+    XSYArray * arr = [self.class new];
+    arr.data = _data;
+    return arr;
+}
+
+#pragma mark - NSMutableCopying
+- (id)mutableCopyWithZone:(nullable NSZone *)zone{
+    return [self copyWithZone:zone];
+}
+
 @end

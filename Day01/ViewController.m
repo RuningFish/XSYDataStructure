@@ -40,9 +40,12 @@
         NSLog(@"array1 --- obj %@, idx %ld , stop %p",obj,idx,stop);
     }];
     
-    
+    XSYArray * array3 = [array0 copy];
+    NSLog(@"array1 ----- %@ ,array3 ----- %@",array1,array3);
     [array1 xsy_removeAllObjects];
-    NSLog(@"array1 ----- %@",array1);
+    NSLog(@"array1 ----- %@ ,array3 ----- %@",array1,array3);
+    
+    
 }
 
 

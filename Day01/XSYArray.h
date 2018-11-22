@@ -7,9 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Foundation/NSEnumerator.h>
-#import <Foundation/NSRange.h>
-#import <Foundation/NSObjCRuntime.h>
 @interface XSYArray : NSObject<NSCopying, NSMutableCopying>
 // 数组的长度
 @property (nonatomic, assign, readonly) NSInteger length;

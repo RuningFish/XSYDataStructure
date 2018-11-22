@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>Day02.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>XSYDataStructure.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>1445062121A53A3500C4A846</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1445063F21A6531B00C4A846</key>
 		<dict>
 			<key>primary</key>
 			<true/>
